@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Montserrat Alternatives', sans-serif;
+}
+
+#topo {
+    color: white;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+#Meio {
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+}
+
+#rodape {
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+
+#Meio div {
+    width: 150px;
+    background-color: burlywood;
+    display: inline-block;
+    height: 250px;
+    margin: 10px 20px 10px 20px;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+
+li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#navegation {
+    height: 70px;
+    background-color: rgb(241, 173, 90);
+    text-align: center;
+    padding: 30px;
+}
